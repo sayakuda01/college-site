@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты — ТехноСервис</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/menu.js" defer></script>
+<script src="js/script.js" defer></script>
+<script src="js/form.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="logo" href="index.html"><img src="img/logo.svg" alt="ТехноСервис"></a>
+      <button class="menu-button" type="button">Меню</button>
+      <nav class="main-nav">
+      <a href="index.html">Главная</a>
+      <a href="services.html">Услуги</a>
+      <a href="about.html">О компании</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+    </div>
+  </header>
+  <main><section class="section"><div class="container">
+      <h1>Контакты</h1>
+      <ul class="contact-list"><li><strong>Телефон:</strong> +7 (3452) 55-20-20</li><li><strong>Адрес:</strong> г. Тюмень, ул. Техническая, 15</li><li><strong>Режим работы:</strong> ежедневно с 9:00 до 19:00</li></ul>
+      <form id="request-form"><label for="name">Имя</label><input id="name" required><label for="problem">Описание проблемы</label><textarea id="problem" rows="4" required></textarea><p><button class="button" type="submit">Отправить заявку</button></p><p id="form-result" aria-live="polite"></p></form>
+    </div></section></main>
+  <footer class="site-footer">
+    <div class="container footer-row"><span>ТехноСервис</span><span>+7 (3452) 55-20-20</span><span>© <span data-year>2026</span></span></div>
+  </footer>
+</body>
+</html>

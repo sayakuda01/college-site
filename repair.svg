@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+      <rect width="1200" height="520" fill="#1f2937"/>
+      <circle cx="990" cy="95" r="210" fill="#2563eb" opacity=".18"/>
+      <circle cx="1080" cy="420" r="290" fill="#2563eb" opacity=".10"/>
+      <rect x="84" y="82" width="92" height="12" rx="6" fill="#2563eb"/>
+      <text x="84" y="200" fill="#ffffff" font-family="Arial" font-size="62" font-weight="700">Ремонт компьютеров</text>
+      <text x="84" y="265" fill="#dbeafe" font-family="Arial" font-size="28">Диагностика и восстановление</text>
+      <rect x="84" y="326" width="240" height="64" rx="14" fill="#2563eb"/>
+      <text x="129" y="368" fill="#ffffff" font-family="Arial" font-size="23">Оставить заявку</text>
+    </svg>
