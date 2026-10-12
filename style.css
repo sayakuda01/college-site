@@ -1,0 +1,33 @@
+:root { --accent: #2563eb; --dark: #0f2342; --muted: #64748b; --surface: #f4f7fb; }
+body { font-family: Arial, sans-serif; color: #172033; line-height: 1.55; background: #fff; }
+.container { width: min(1100px, calc(100% - 36px)); margin: 0 auto; }
+.site-header { border-bottom: 1px solid #d9e0ea; background: #fff; position: sticky; top: 0; z-index: 2; }
+.header-row { min-height: 78px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.logo img { width: 198px; }
+.main-nav { display: flex; gap: 22px; align-items: center; }
+.main-nav a { text-decoration: none; font-weight: 700; }
+.main-nav a:hover { color: var(--accent); }
+.menu-button { display: none; border: 1px solid #cbd5e1; background: #fff; padding: 8px 12px; border-radius: 8px; }
+.hero { background: var(--dark); }
+.hero img { width: 100%; max-height: 520px; object-fit: cover; }
+.section { padding: 58px 0; }
+.section.alt { background: var(--surface); }
+h1, h2 { line-height: 1.15; margin-top: 0; }
+h1 { font-size: clamp(34px, 5vw, 56px); }
+h2 { font-size: 32px; }
+.lead { max-width: 38rem; }
+
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.card { padding: 24px; border: 1px solid #d9e0ea; border-radius: 16px; background: #fff; }
+.button { display: inline-block; background: var(--accent); color: #fff; padding: 12px 18px; border-radius: 10px; text-decoration: none; border: 0; cursor: pointer; }
+.contact-list { list-style: none; padding: 0; }
+label { display: block; margin: 14px 0 6px; font-weight: 700; }
+input, textarea { width: 100%; padding: 11px; border: 1px solid #b7c2d0; border-radius: 8px; }
+.site-footer { padding: 28px 0; background: #111827; color: #fff; }
+.footer-row { display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+@media (max-width: 760px) {
+  .menu-button { display: block; }
+  .main-nav { display: none; position: absolute; left: 18px; right: 18px; top: 70px; padding: 18px; flex-direction: column; align-items: flex-start; background: #fff; border: 1px solid #d9e0ea; border-radius: 12px; }
+  .main-nav.open { display: flex; }
+  .grid { grid-template-columns: 1fr; }
+}
