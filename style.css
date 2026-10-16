@@ -1,6 +1,6 @@
 :root { --accent: #2563eb; --dark: #0f2342; --muted: #64748b; --surface: #f4f7fb; }
 body { font-family: Arial, sans-serif; color: #172033; line-height: 1.55; background: #fff; }
-.container { width: min(1100px, calc(100% - 36px)); margin: 0 auto; }
+.container { width: min(500px, calc(100% - 10px)); margin: 0 auto; }
 .site-header { border-bottom: 1px solid #d9e0ea; background: #fff; position: sticky; top: 0; z-index: 2; }
 .header-row { min-height: 78px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .logo img { width: 198px; }
